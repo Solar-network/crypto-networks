@@ -11,8 +11,8 @@
     "slip44": 1,
     "aip20": 0,
     "client": {
-        "token": "Power",
+        "token": "dSXP",
         "symbol": "dSXP",
-        "explorer": "https://explorer.solar.network/devnet"
+        "explorer": "https://explorer.solar.network/testnet"
     }
 }
