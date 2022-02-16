@@ -1,11 +1,8 @@
 {
     "name": "@solar-network/crypto-networks",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Network configurations for the Solar Core Blockchain. Developed for TypeScript.",
     "license": "MIT",
-    "contributors": [
-        "Brian Faust <brian@ark.io>"
-    ],
     "files": [
         "dist"
     ],
