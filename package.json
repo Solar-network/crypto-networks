@@ -1,8 +1,11 @@
 {
     "name": "@solar-network/crypto-networks",
-    "version": "1.0.1",
-    "description": "Network configurations for the Solar Core Blockchain. Developed for TypeScript.",
+    "version": "3.1.4",
+    "description": "Network configurations for the Solar Blockchain. Developed for TypeScript.",
     "license": "MIT",
+    "contributors": [
+        "Brian Faust <brian@ark.io>"
+    ],
     "files": [
         "dist"
     ],
@@ -12,8 +15,7 @@
         "build": "yarn clean && tsc",
         "build:watch": "yarn clean && yarn compile -w",
         "clean": "del dist",
-        "install": "../../../node_modules/typescript/bin/tsc",
-        "prepublishOnly": "yarn build",
+        "compile": "./node_modules/typescript/bin/tsc",
         "format": "yarn run lint && yarn run prettier",
         "lint": "eslint src/** --ext .ts --fix",
         "prettier": "prettier --write \"./*.{ts,js,json,md}\" \"./**/*.{ts,js,json,md}\""
